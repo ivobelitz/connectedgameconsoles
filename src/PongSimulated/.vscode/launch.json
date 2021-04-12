@@ -1,0 +1,34 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+
+// PIO Unified Debugger
+//
+// Documentation: https://docs.platformio.org/page/plus/debugging.html
+// Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "d:/Programming/Semester 3/Week 1-6/Project/Project 4/Pong demo/.pio/build/sparkfun_redboard/firmware.elf",
+            "projectEnvName": "sparkfun_redboard",
+            "toolchainBinDir": "C:/Users/Ivo/.platformio/packages/toolchain-atmelavr/bin",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug"
+            },
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "d:/Programming/Semester 3/Week 1-6/Project/Project 4/Pong demo/.pio/build/sparkfun_redboard/firmware.elf",
+            "projectEnvName": "sparkfun_redboard",
+            "toolchainBinDir": "C:/Users/Ivo/.platformio/packages/toolchain-atmelavr/bin",
+            "internalConsoleOptions": "openOnSessionStart"
+        }
+    ]
+}
